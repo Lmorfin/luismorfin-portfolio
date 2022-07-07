@@ -1,0 +1,85 @@
+/* Large Desktop */
+@media only screen and (max-width: 3440px) {
+  .experience__skill h5 {
+    display: none;
+  }
+
+  .experience__skill h2 {
+    display: block;
+  }
+
+  .experience__skill {
+    width: 70%;
+    height: 100%;
+  }
+  .experience__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .skill-image-wrapper {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 27%;
+  }
+}
+
+/* Desktop */
+@media only screen and (max-width: 1024px) {
+  .experience__skill h5 {
+    display: none;
+  }
+
+  .experience__skill h2 {
+    display: block;
+  }
+
+  .experience__skill {
+    width: 70%;
+    height: 100%;
+  }
+  .experience__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  .skill-image-wrapper {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 27%;
+  }
+}
+
+/* Mobile view */
+@media only screen and (max-width: 768px) {
+  .experience__skill h2 {
+    display: none;
+  }
+
+  .experience__skill h5 {
+    display: block;
+  }
+
+  .experience__skill {
+    width: 70%;
+    height: 75%;
+  }
+  .experience__content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .skill-image-wrapper {
+    /* display: flex;
+    flex-wrap: wrap; */
+    width: 37%;
+  }
+
+  /* figcaption {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5px;
+    font-size: 70%;
+  } */
+}

@@ -1,6 +1,7 @@
-import React from 'react'
-import './experience.css'
-import {BsFillCheckCircleFill} from 'react-icons/bs'
+import React from "react";
+import "../../styles/experience.css";
+import "../../styles/query/_experience-query.css";
+import { BsFillCheckCircleFill } from "react-icons/bs";
 const Experience = () => {
   return (
     <section id="experience">
@@ -9,40 +10,123 @@ const Experience = () => {
 
       <div className="container experience_container">
         <div className="experience__skill">
-          <h3>Key Technologies:</h3>
+          <h2>Languages: </h2>
+          <h5>Languages: </h5>
           <div className="experience__content">
-            <article className="experience_details">
-              <h4>C++</h4>
-              <h4>Java</h4>
-              <h4>HTML/CSS</h4>
-              <h4>Javascript</h4>
-              <h4>Reactjs</h4>
-            </article>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                alt="Java"
+              />
+              {/* <figcaption>Java</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg"
+                alt="C++"
+              />
+              {/* <figcaption>C++</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg"
+                alt="C"
+              />
+              {/* <figcaption>C</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                alt="JavaScript"
+              />
+              {/* <figcaption>JavaScript</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+                alt="HTML"
+              />
+              {/* <figcaption>HTML5</figcaption> */}
+            </div>
+
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+                alt="CSS"
+              />
+              {/* <figcaption>CSS3</figcaption> */}
+            </div>
           </div>
         </div>
 
         <div className="experience__skill">
-          <h3>Familiar with:</h3>
+          <h2>Technologies:</h2>
+          <h5>Technologies:</h5>
           <div className="experience__content">
-            <article className="experience_details">
-              <h4>Swift</h4>
-              <h4>C#</h4>
-              <h4>C</h4>
-              <h4>MySQL</h4>
-            </article>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+                alt="React"
+              />
+              {/* <figcaption>React.JS</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
+                alt="Sass"
+              />
+              {/* <figcaption>Sass</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg"
+                alt="MaterialUI"
+              />
+              {/* <figcaption>MaterialUI</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg"
+                alt="MySQL"
+              />
+              {/* <figcaption>MySQL</figcaption> */}
+            </div>
           </div>
         </div>
 
         <div className="experience__skill">
-          <h3>Dev Tools:</h3>
+          <h2>Dev Tools:</h2>
+          <h5>Dev Tools:</h5>
           <div className="experience__content">
-            <article className="experience_details">
-              <h4>Visual Studio Code</h4>
-              <h4>XCode</h4>
-              <h4>Unity Game Engine</h4>
-              <h4>Git</h4>
-              <h4>Eclipse</h4>
-            </article>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"
+                alt="Git"
+              />
+              {/* <figcaption>Git</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"
+                alt="VSCode"
+              />
+              {/* <figcaption>VS Code</figcaption> */}
+            </div>
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/unity/unity-original.svg"
+                alt="Unity"
+              />
+              {/* <figcaption>Unity</figcaption> */}
+            </div>
+
+            <div className="skill-image-wrapper">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/xcode/xcode-plain.svg"
+                alt="xCode"
+              />
+              {/* <figcaption>xCode</figcaption> */}
+            </div>
           </div>
         </div>
       </div>
@@ -94,6 +178,6 @@ const Experience = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Experience
+export default Experience;

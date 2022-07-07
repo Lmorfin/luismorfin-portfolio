@@ -1,10 +1,10 @@
-import React from 'react'
-import './header.css'
-import CTA from './CTA'
-import HeaderSocials from '../header/HeaderSocials'
+import React from "react";
+import "../../styles/header.css";
+import CTA from "./CTA";
+import HeaderSocials from "../header/HeaderSocials";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import Typewriter from 'typewriter-effect';
+import Typewriter from "typewriter-effect";
 
 const Header = () => {
   const particlesInit = async (main) => {
@@ -105,8 +105,8 @@ const Header = () => {
           <h2 class="text-light">
             <Typewriter
               onInit={(typewriter) => {
-                 typewriter.typeString("").pauseFor(2500).start();
-                 typewriter.typeString("Front-End Developer").start();
+                typewriter.typeString("").pauseFor(2500).start();
+                typewriter.typeString("Front-End Developer").start();
               }}
             />
           </h2>
@@ -118,6 +118,6 @@ const Header = () => {
       </div>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;

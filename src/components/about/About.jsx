@@ -1,9 +1,10 @@
-import React from 'react'
-import './about.css'
-import ME from '../../assets/download.png'
-import {ImLocation2} from 'react-icons/im'
-import {FaUserGraduate} from 'react-icons/fa'
-import {RiComputerLine} from 'react-icons/ri'
+import React from "react";
+import "../../styles/about.css";
+import "../../styles/query/_about-query.css";
+import ME from "../../assets/download.png";
+import { ImLocation2 } from "react-icons/im";
+import { FaUserGraduate } from "react-icons/fa";
+import { RiComputerLine } from "react-icons/ri";
 
 const About = () => {
   return (
@@ -55,6 +56,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

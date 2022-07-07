@@ -1,8 +1,9 @@
-import React from 'react'
-import './portfolio.css'
-import FLIX from '../../assets/flix-screenshot.png'
-import IG from '../../assets/instagram.png'
-import RECIPIE from '../../assets/recipie.png'
+import React from "react";
+import "../../styles/portfolio.css";
+import "../../styles/query/_portfolio-query.css";
+import FLIX from "../../assets/flix-screenshot.png";
+import IG from "../../assets/instagram.png";
+import RECIPIE from "../../assets/recipie.png";
 const portfolio = () => {
   return (
     <section id="portfolio">
@@ -15,6 +16,7 @@ const portfolio = () => {
             <img src={FLIX} alt="flix-app" />
           </div>
           <h3>Flix - iOS</h3>
+          <h5>Flix - iOS</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Lmorfin/Flix"
@@ -31,6 +33,7 @@ const portfolio = () => {
             <img src={IG} alt="IG-app" />
           </div>
           <h3>Instagram Clone - iOS</h3>
+          <h5>Instagram Clone - iOS</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Lmorfin/InstagramClone"
@@ -46,7 +49,8 @@ const portfolio = () => {
           <div className="portfolio__item-image">
             <img src={RECIPIE} alt="recipie" />
           </div>
-          <h3>Reci-Pie - iOS</h3>
+          <h3>ReciPie - iOS</h3>
+          <h5>ReciPie - iOS</h5>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/Reci-Pie-Team/Reci-Pie"
@@ -57,11 +61,9 @@ const portfolio = () => {
             </a>
           </div>
         </article>
-
-
       </div>
     </section>
   );
-}
+};
 
-export default portfolio
+export default portfolio;

@@ -1,0 +1,54 @@
+nav {
+  /*black with some transparency*/
+  background: rgba(0, 0, 0, 0.3);
+  width: max-content;
+  display: block;
+  /* top&bottom   left&right */
+  padding: 0.7rem 0.7rem;
+  z-index: 2;
+  /*fixed on the page*/
+  position: fixed;
+  left: 5%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  display: grid;
+  gap: 0.8rem;
+  border-radius: 3rem;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: 0.9rem;
+  border-radius: 50%;
+  display: flex;
+  color: var(--color-light);
+  font-size: 1.1rem;
+}
+
+/* on hover turn black*/
+nav a:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/*when active turn white*/
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+}
+
+/* Responsive Design */
+/* Media Queries (Medium Devices) Tablets */
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    left: 50%;
+  }
+}
+
+/* Media Queries (small Devices) phones */
+@media screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
+}
