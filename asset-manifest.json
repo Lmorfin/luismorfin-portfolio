@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/luismorfin-portfolio/static/css/main.400e1071.css",
-    "main.js": "/luismorfin-portfolio/static/js/main.5f12da80.js",
+    "main.css": "/luismorfin-portfolio/static/css/main.e877b349.css",
+    "main.js": "/luismorfin-portfolio/static/js/main.e68bb70d.js",
     "static/js/937.b993569d.chunk.js": "/luismorfin-portfolio/static/js/937.b993569d.chunk.js",
     "static/media/recipie.png": "/luismorfin-portfolio/static/media/recipie.616195ddf48c4b05cdf4.png",
     "static/media/instagram.png": "/luismorfin-portfolio/static/media/instagram.d7ec267f9821e2cfbbcb.png",
@@ -9,12 +9,12 @@
     "static/media/flix-screenshot.png": "/luismorfin-portfolio/static/media/flix-screenshot.3367e4fc83dd83e81c8a.png",
     "static/media/MorfinLuis_SoftwareEngineerResume.pdf": "/luismorfin-portfolio/static/media/MorfinLuis_SoftwareEngineerResume.2246bf50ec602d04da66.pdf",
     "index.html": "/luismorfin-portfolio/index.html",
-    "main.400e1071.css.map": "/luismorfin-portfolio/static/css/main.400e1071.css.map",
-    "main.5f12da80.js.map": "/luismorfin-portfolio/static/js/main.5f12da80.js.map",
+    "main.e877b349.css.map": "/luismorfin-portfolio/static/css/main.e877b349.css.map",
+    "main.e68bb70d.js.map": "/luismorfin-portfolio/static/js/main.e68bb70d.js.map",
     "937.b993569d.chunk.js.map": "/luismorfin-portfolio/static/js/937.b993569d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.400e1071.css",
-    "static/js/main.5f12da80.js"
+    "static/css/main.e877b349.css",
+    "static/js/main.e68bb70d.js"
   ]
 }
