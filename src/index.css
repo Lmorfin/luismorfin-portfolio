@@ -16,7 +16,8 @@
 
     /*#1F1F38*/
     
-    --color-bg: #000833;
+    /* --color-bg: #000833; */
+    --color-bg: #040720; 
     --color-bg-variant: #2C2C6C;
     --color-primary: #4DB5ff;
     --color-primary-variant: rgba(77,181,255,0.4);
@@ -30,6 +31,8 @@
 
    
     --transition: all 400ms ease;
+    --nav-load-time: 300ms;
+    --nav-link-load-time: 500ms;
 }
 
 
@@ -47,7 +50,9 @@ body{
     background: var(--color-bg);
     color: var(--color-white);
     line-height: 1.7;
-    background-image: url(../src/assets/bg-texture.png);
+     background-image: url(../src/assets/bg-texture.png); 
+
+    
 }
 
 /* General Styles */

@@ -4,10 +4,12 @@ import "../../styles/query/_portfolio-query.css";
 import FLIX from "../../assets/flix-screenshot.png";
 import IG from "../../assets/instagram.png";
 import RECIPIE from "../../assets/recipie.png";
+import {BiCodeAlt} from "react-icons/bi";
+
 const portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h1><BiCodeAlt/></h1>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">

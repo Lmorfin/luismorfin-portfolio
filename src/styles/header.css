@@ -1,14 +1,19 @@
 header {
   height: 100vh;
-  padding-top: 7rem;
-  overflow: hidden;
+  overflow: hidden; 
 }
 
-.header_container {
+#tsparticles {
+  height: 600px;
+}
+.container__header-container {
+margin-top: 10rem;
   text-align: center;
   height: 100%;
   position: relative;
 }
+
+
 
 /* CTA */
 .cta {
@@ -20,13 +25,12 @@ header {
 
 /* Header Socials */
 .header__socials {
+  font-size: 1.5rem;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   gap: 0.8rem;
-  position: absolute;
-  left: -3%;
-  bottom: 3rem;
 }
 
 .header__socials::after {
@@ -100,8 +104,5 @@ header {
     height: 100vh;
   }
 
-  .header__socials,
-  .scroll__down {
-    display: none;
-  }
+
 }

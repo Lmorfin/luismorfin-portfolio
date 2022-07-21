@@ -9,7 +9,7 @@ import { RiComputerLine } from "react-icons/ri";
 const About = () => {
   return (
     <section id="about">
-      <h5>Get To Know Me</h5>
+      <h5>My Story</h5>
       <h2>About Me</h2>
 
       <div className="container about__container">
@@ -42,11 +42,13 @@ const About = () => {
           </div>
 
           <p className="about-text">
-            I graduated from CSU East Bay in May 2022, I'm a first generation
-            Latino originally from Mexico. I grew up in the East Side of San
-            Jose, CA. I have experience with iOS Development and also Front-End.
-            I am actively seeking for career opportunities to grow and apply my
-            skills in the Software field.
+            I'm a first generation recent gradute. I am originally from Mexico
+            but grew up in the East Side of San Jose, CA. I attended Mission
+            College and transferred to Cal State East Bay where I completed my
+            undergrad. I have experience with frontend web development and iOS development. 
+            I am actively seeking
+            for career opportunities to grow and apply my skills in the software
+            field.
           </p>
 
           <a href="#contact" className="btn btn-primary">

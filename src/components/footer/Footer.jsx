@@ -1,5 +1,6 @@
 import React from "react";
 import "../../styles/footer.css";
+import HeaderSocials from "../header/HeaderSocials";
 
 const Footer = () => {
   return (
@@ -7,6 +8,8 @@ const Footer = () => {
       <a href="#" className="footer__logo">
         Luis Morfin
       </a>
+      <HeaderSocials />
+      <hr className="divider" />
 
       <ul className="links">
         <li>
@@ -25,6 +28,7 @@ const Footer = () => {
           <a href="#portfolio">Portfolio</a>
         </li>
       </ul>
+      <hr className="divider" />
     </footer>
   );
 };

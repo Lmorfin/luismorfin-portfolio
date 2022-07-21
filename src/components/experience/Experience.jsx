@@ -5,7 +5,7 @@ import { BsFillCheckCircleFill } from "react-icons/bs";
 const Experience = () => {
   return (
     <section id="experience">
-      <h5>The Skills I have</h5>
+      <h5>Skills Loading...</h5>
       <h2>My Experience</h2>
 
       <div className="container experience_container">
@@ -134,13 +134,32 @@ const Experience = () => {
       <div className="container experience__work">
         <div className="work__content">
           <h3>Work Experience:</h3>
-          <div className="position">
+          {/* Front-end Developer */}
+          <div className="position1">
+            <h3>Frontend Developer</h3>
+            <h3>Inkfluencer | San Jose CA June 2022 - Present</h3>
+          </div>
+          <article className="work__details">
+            <ul>
+              <li>● Implement reusable code for future use.</li>
+              <li>● Translate wireframes into new user-facing features.</li>
+              <li>● Agile practices in a team environment.</li>
+              <li>
+                <b>● Technologies:</b> HTML/CSS, JavaScript, React.js, Git,
+                ChakraUI
+              </li>
+            </ul>
+          </article>
+
+          <div className="position2">
             <h3>Research Assistant and Developer</h3>
             <h3>Mission College | Santa Clara, CA July 2020 - Sept 2020</h3>
           </div>
           <article className="work__details">
             <ul>
-              <h3>Wind Turbine Adventure Game</h3>
+              <h3>
+                <em>Wind Turbine Adventure Game</em>
+              </h3>
               <li>
                 ● Developed a first person 3D educational game to teach students
                 about wind power engineering concepts.
@@ -156,7 +175,7 @@ const Experience = () => {
             </ul>
 
             <ul>
-              <h3>VR Game Development Tutorials</h3>
+              <h3><em>VR Game Development Tutorials</em></h3>
               <li>
                 ● Created VR project based tutorial videos that covered
                 collision detection and user interactions.

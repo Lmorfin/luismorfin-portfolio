@@ -39,3 +39,8 @@
   width: 90%;
   height: 70%;
 }
+
+h1 {
+       text-align: center;    
+     color:var(--color-light)
+}

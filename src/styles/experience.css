@@ -48,9 +48,23 @@
 
 .work__details h3 {
   padding-top: 1rem;
+  color:var(--color-primary);
 }
-.position {
+
+.position1 {
   text-align: left;
+}
+
+.position1 h3 {
+    color:var(--color-primary);
+}
+.position2 {
+  text-align: left;
+  margin-top: 2rem;
+}
+
+.position2 h3 {
+   color:var(--color-primary);
 }
 
 /* Responsive Design */

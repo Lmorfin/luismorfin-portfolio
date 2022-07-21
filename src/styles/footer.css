@@ -3,7 +3,7 @@ footer {
   padding: 3rem 0;
   text-align: center;
   font-size: 0.9rem;
-  margin-top: 7rem;
+  margin-top: 13rem;
 }
 
 footer a {
@@ -25,17 +25,14 @@ footer a {
   margin: 0 auto 3rem;
 }
 
-/* Responsive Design */
-/* Media Queries (Medium Devices) Tablets */
-@media screen and (max-width: 1024px) {
-  footer {
-    margin-top: 13rem;
-  }
-}
-
-/* Media Queries (small Devices) phones */
-@media screen and (max-width: 600px) {
-  footer {
-    margin-top: 13rem;
-  }
+.divider {
+  margin-bottom: 3rem;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    var(--color-light),
+    transparent
+  );
 }

@@ -5,24 +5,24 @@
 }
 
 .about__me {
-  /*height always matches the width*/
+
   width: 100%;
   aspect-ratio: 1/1;
-  border-radius: 2rem;
-  background: linear-gradient(
+  border-radius: 15rem;
+  /* background: linear-gradient(
     45deg,
     transparent,
     var(--color-primary),
     transparent
-  );
+  ); */
   display: grid;
   place-items: center;
-}
+} 
 
 .about__me-image {
   width: auto;
   height: 378px;
-  border-radius: 2rem;
+  border-radius: 15rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);

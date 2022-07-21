@@ -6,10 +6,14 @@
   .portfolio__item h3 {
     display: block;
   }
+    #portfolio {
+    margin-top: 25rem;
+  }
 }
 
 /* Desktop */
 @media only screen and (max-width: 1024px) {
+
   .portfolio__item h5 {
     display: none;
   }
@@ -22,7 +26,7 @@
 /* Mobile view */
 @media only screen and (max-width: 768px) {
   #portfolio {
-    margin-top: 10rem;
+    margin-top: 25rem;
   }
   .portfolio__item h5 {
     display: block;

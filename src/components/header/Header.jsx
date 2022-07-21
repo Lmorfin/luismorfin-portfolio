@@ -18,12 +18,23 @@ const Header = () => {
 
   return (
     <header>
-      <div className="container header_container">
+      <div className="container__header-container">
         <h3>Hello I'm</h3>
         <h1>Luis Morfin</h1>
         {/*<h4 class="text-light">Front-End Developer</h4>*/}
+        <div className="me">
+          <h2 class="text-light">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString("").pauseFor(2500).start();
+                typewriter.typeString("Front-End Developer").start();
+              }}
+            />
+          </h2>
+        </div>
         <CTA />
-        <HeaderSocials />
+
+        {/* <HeaderSocials /> */}
         <Particles
           id="tsparticles"
           init={particlesInit}
@@ -38,7 +49,7 @@ const Header = () => {
             interactivity: {
               events: {
                 onClick: {
-                  enable: true,
+                  enable: false,
                   mode: "push",
                 },
                 onHover: {
@@ -84,7 +95,7 @@ const Header = () => {
               number: {
                 density: {
                   enable: true,
-                  area: 800,
+                  area: 650,
                 },
                 value: 50,
               },
@@ -99,18 +110,9 @@ const Header = () => {
               },
             },
             detectRetina: true,
+            fullScreen: { enable: false },
           }}
         />
-        <div className="me">
-          <h2 class="text-light">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter.typeString("").pauseFor(2500).start();
-                typewriter.typeString("Front-End Developer").start();
-              }}
-            />
-          </h2>
-        </div>
 
         <a href="#contact" className="scroll__down">
           Scroll Down
